@@ -13,6 +13,7 @@ public with sharing class GoogleMapMultipleObject {
             system.debug('query ==== >>>>'+query);
             acc = Database.query(query);
 		system.debug('acc ==== >>>'+acc);
+        system.debug('acc ==== >>>'+acc);
         List<Location> loc = new List<Location>();
         
         System.debug(acc);
